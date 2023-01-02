@@ -518,7 +518,7 @@ body #sixth-page{
 body #sixth-page .title{
     text-align: center;
     font-size: 45px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-family: 'Seymour One', sans-serif;
     padding: 50px;
 }
 
@@ -639,7 +639,7 @@ body footer .container .helper li a:hover{
 body footer .container span{
     color: white;
     font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Seymour One', sans-serif;
 }
 
 
