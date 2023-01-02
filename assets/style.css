@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body .selector{
     position: fixed;
     background-color: antiquewhite;
@@ -107,12 +109,30 @@ header .container .row .basket-button{
     margin-top: 15px;
     color: antiquewhite;
 }
-header .container .row .basket-button svg{
+header .container .row .basket-button i{
     margin-top: 25px;
     margin-left: 30px;
+    font-size: 30px;
     color: blueviolet;
     align-items: center;
 }
+
+header .container .row .basket-button i::after{
+    content: '+9';
+    display: inline-block;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 30px;
+}
+
 header .container .row .basket-button p{
     display: flex;
     justify-content: center;
