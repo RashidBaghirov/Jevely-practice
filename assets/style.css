@@ -1,15 +1,8 @@
-
-
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
 body .selector{
     position: fixed;
     background-color: antiquewhite;
@@ -22,7 +15,6 @@ body .selector{
     top: 180px;
     right: 15px;   
 }
-
 body .selector-back{
     position: fixed;
     background-color: antiquewhite;
@@ -35,22 +27,17 @@ body .selector-back{
     bottom: 25px;
     right: 15px;  
 }
-
 body .selector-back ul li{
     margin-top: 10px;
     font-size: 25px;
     list-style: none;
 }
-
-body .selector ul li{
-    
+body .selector ul li{  
     margin-bottom: 38px;
     text-decoration: none;
     list-style: none;
       border-bottom: #2B2B2B;
 }
-
-
 body .selector ul:first-child{
     margin-top: 20px;
 }
@@ -58,11 +45,9 @@ body .selector ul li i{
     color: rgb(98, 98, 116);
     font-size: 20px; 
 }
-
 body .selector ul li i:hover{
     color: #363636;
 }
-
 header{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -96,19 +81,16 @@ header .container .logo2{
     bottom: -280px;
     right: -220px;  
 }
-
 header .container .row {
     position: relative;
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-between;  
 }
 header .container .row .image{
     margin-top: 45px;
     margin-left: 35px;
     z-index: 1;
 }
-
 header .container .row .basket-button{
    
     display: flex;
@@ -123,7 +105,6 @@ header .container .row .basket-button i{
     color: blueviolet;
     align-items: center;
 }
-
 header .container .row .basket-button i::after{
     content: '0';
     display: inline-block;
@@ -139,13 +120,9 @@ header .container .row .basket-button i::after{
     position: absolute;
     top: 30px;
 }
-
-
-
 header .container .row .basket-button i:hover{
     color: #6c12eb;
 }
-
 header .container .row .basket-button p{
     display: flex;
     justify-content: center;
@@ -160,8 +137,6 @@ header .container .row .basket-button p{
 header .container .row .basket-button p:hover{
     background-color: #6c12eb;
 }
-
-
 header .container .row nav ul{
 
     display: flex;
@@ -172,11 +147,9 @@ header .container .row nav ul li{
     margin-left: 20px;
     font-family: 'Seymour One', sans-serif;  
 }
-
 header .container .row nav ul li a:hover{
     color: #6c12eb;
 }
-
 header .container .row nav ul li a{
 
  color: antiquewhite;
@@ -185,11 +158,8 @@ header .container .row nav ul li a{
 header .container .row .watch-backgraound{
     position: relative;
     color: antiquewhite;
-    display: flex;
-   
-    
+    display: flex;  
 }
-
 header .container .row .watch-backgraound .watches #watches{
     position: absolute;
      top: 90px;
@@ -199,8 +169,24 @@ header .container .row .watch-backgraound .watches #watches{
 }
 header .container .row .title{
     position: absolute;
-    top: 140px;
+    top: 160px;
     left:220px;  
+}
+header .container .row .title .img{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 75px;
+    color: #F4F4F4;
+}
+
+header .container .row .title .title-lorem .first{
+    margin-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header .container .row .title .title-lorem .second{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-top: 15px;
 }
 
 body #first-page{
@@ -232,27 +218,22 @@ body #first-page .watches-and-title .watches .first .second{
        top: 0;
        left: 0;
        z-index: 1;
-       transition: 3s;
-       
+       transition: 3s;      
 }
-
  body #first-page .watches-and-title .watches .first:hover .second{
    display: flex;
 
 } 
-
 body #first-page .watches-and-title{
     display:inline-block;
     justify-content: center;
     width: 90%;
 }
-
 body #first-page .watches-and-title .title-text{
     margin-top: 100px;
     margin-left: 15px;
     text-align: center;
 }
-
 body #first-page .watches-and-title .title-text span {
     font-size: 55px;
     font-family: 'Seymour One', sans-serif;
@@ -268,23 +249,17 @@ body #first-page .watches-and-title .title-text p{
     width: 500px;
     margin: 0 auto;
 }
-
 body #first-page .watches-and-title .watches{
     position: relative;
 }
-
-
 body #first-page .watches-and-title .watches .first ul {
     display: flex;
     margin: 50px;
     position: absolute;
     top: 0;
-    left: 0;
-   
-   
+    left: 0;  
 }
 body #first-page .watches-and-title .watches .first ul li{
-   
     margin-left: 10px;
     list-style: none;
 }
@@ -294,8 +269,6 @@ body #first-page .watches-and-title .watches .first img{
     width: 390px;
     height: 400px;
 }
-
-
 body #second-page{
     height: 100vh;
 }
@@ -303,57 +276,42 @@ body #second-page{
 body #second-page .main{
   display:flex;
     margin-top: 170px;
-    justify-content:space-evenly;
-   
+    justify-content:space-evenly; 
 }
-
-
 body #second-page .main .title-icon .title{
    text-align: center;
     line-height: 70px;
 }
-
 body #second-page .main .title-icon .title span{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
 }
-
-
-
-
 body #second-page .main .title-icon .icon .micro{
     position: relative;
      display: block;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
-    margin-left: 50px;
-    
+    margin-left: 50px;  
 }
-
 body #second-page .main .title-icon .icon .micro i{
     position: absolute;
     top: 10px;
     left: -70px;
     color: blueviolet;
-    font-size: 35px;
-
-     
+    font-size: 35px;    
 }
 body #second-page .main .title-icon .icon .micro div p
 {
     color: grey;
     display: flex;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 body #third-page .second-part .text-image{
     display: flex;
     justify-content: space-evenly;
     margin:90px;
 }
-
 body #third-page .second-part .text-image .text h5{
     font-family: 'Seymour One', sans-serif;
     color: grey;
@@ -366,9 +324,6 @@ body #third-page .second-part .text-image .text .title{
 body #third-page .second-part .text-image .text{
     margin-top: 10px;
 }
-
-
-
 body #third-page .second-part .text-image .text p{
     color: grey;
     margin-top: 10px;
@@ -396,37 +351,30 @@ body #third-page .second-part .text-image .text .line3 pre{
 body #third-page .second-part .text-image .text h3{
     margin: 15px;
 }
-
 body #fourth-page{
     background-color: #F0EDF4;
     height: 160vh;
     overflow-y: hidden;
     overflow-x: hidden;
     position: relative;  
-  
 }
-
 body #fourth-page .contain{
     text-align: center;
     overflow-y: hidden;
     margin: 50px;
 }
-
 body #fourth-page .contain .title {
   padding: 50px;
 }
-
 body #fourth-page .contain .title h4{
     text-align: start;
 }
-
 body #fourth-page .contain .title p{
     font-size: 55px;
     line-height: 62px;
     font-family: 'Seymour One', sans-serif;
     text-align: start;
 }
-
 body #fourth-page .contain  .title-info p{
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    margin-bottom: 40px;
@@ -434,17 +382,14 @@ body #fourth-page .contain  .title-info p{
    color: gray; 
    text-align: start;
 }
-
 body #fourth-page .contain .image-icone{
     position: absolute;
 }
-
 body #fourth-page .contain .image-icone .image{
     
     width: 50%;
    margin: 50px;
 }
-
 body #fourth-page .contain .image-icone .icone{
     width: 100%;
     height: 100%;
@@ -457,13 +402,10 @@ body #fourth-page .contain .image-icone .icone{
 body #fourth-page .contain .image-icone .icone i:hover{
     font-size: 80px;
 }
-
 body #fifth-page{
     height: 100vh;
     background:#363636;
 }
-
-
 body #fifth-page .title{
     padding: 25px;
     text-align: center;
@@ -498,12 +440,10 @@ body #fifth-page .button{
     margin-top: 35px;   
 }
 
-body #fifth-page .button:hover{
-    
+body #fifth-page .button:hover{   
     color: gray;
     border: 1px solid gray;
 }
-
 body #sixth-page{
     height: 100vh;
     background-color: #F4F4F4;
@@ -514,25 +454,17 @@ body #sixth-page{
     position: relative;
   
 }
-
 body #sixth-page .title{
     text-align: center;
     font-size: 45px;
      font-family: 'Seymour One', sans-serif;
     padding: 50px;
 }
-
-
-
 body #sixth-page .image {
     position: relative;
     display: inline-block;
-    left: 460px;
-       
+    left: 460px;     
 }
-
-
-
 body #sixth-page .image .second{
      display: none;
         position: absolute;
@@ -599,7 +531,6 @@ body footer .container .first-part ul li{
     font-size: 20px;
     margin-left: 15px;
 }
-
 body footer .container .first-part ul li i{
     font-size: 25px;
     color: #F4F4F4;
@@ -610,51 +541,38 @@ body footer .container .first-part ul li i:hover{
 body footer .container .first-part .secured-icon{
    margin-top: 25px;
 }
-
 body footer .container .first-part .secured-icon .secured{
     font-size: small;
     color: gray;
 }
-
 body footer .container .second-part{
     margin-top: 45px;
 }
-
-
 body footer .container .helper li {
     list-style: none;
-    margin-top: 15px;
-  
+    margin-top: 15px; 
 }
-
 body footer .container .helper li a{
    text-decoration: none;
-   color: gray;
-  
+   color: gray; 
 }
 body footer .container .helper li a:hover{
     color: rgb(105, 102, 102);
 }
-
 body footer .container span{
     color: white;
     font-size: larger;
     font-family: 'Seymour One', sans-serif;
 }
-
-
 body footer .container .third-part{
     margin-top: 45px;
 }
-
-
 body footer  .end{
     background-color: #363636;
     color: gray;
     text-align: center;
     font-size: small;
-    padding: 25px;
-    
+    padding: 25px;    
 }
 
 .col-1{
@@ -808,6 +726,5 @@ body footer  .end{
     .col-sm-12{
         width: 100%;
     }
-
 }
 
