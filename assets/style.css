@@ -100,7 +100,7 @@ header .container .row .basket-button{
 }
 header .container .row .basket-button i{
     margin-top: 25px;
-    margin-left: 30px;
+    margin-left: 50px;
     font-size: 30px;
     color: blueviolet;
     align-items: center;
@@ -131,14 +131,16 @@ header .container .row .basket-button p{
     width: 180px;
     height: 50px;
     background-color: blueviolet;
-    margin-left: 70px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 19px;
 }
 header .container .row .basket-button p:hover{
     background-color: #6c12eb;
 }
 header .container .row nav ul{
-
+    margin-left: 15px;
+    font-size: 13px;
     display: flex;
 }
 header .container .row nav ul li{
@@ -708,6 +710,7 @@ body footer  .end{
     .col-md-12{
         width: 100%;
     }
+
 }
 
 @media screen and (max-width:640px){
