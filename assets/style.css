@@ -486,7 +486,7 @@ body #sixth-page .title{
 body #sixth-page .image {
     position: relative;
     display: inline-block;
-    left: 460px;     
+    left: 500px;     
 }
 body #sixth-page .image .second{
      display: none;
@@ -496,6 +496,7 @@ body #sixth-page .image .second{
         z-index: 99;       
 }
 body #sixth-page .image-title{
+    margin-top: 35px;
     text-align: center;
 }
 
