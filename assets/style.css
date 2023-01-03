@@ -495,6 +495,25 @@ body #sixth-page .image .second{
         left: 0;
         z-index: 99;       
 }
+body #sixth-page .image-title{
+    text-align: center;
+}
+
+body #sixth-page .image-title .lorem{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+body #sixth-page .image-title .name .first{
+    margin: 20px;
+    font-size: 20px;
+    color: #6c12eb;
+}
+body #sixth-page .image-title .name .first-num{
+    color: gray;
+    font-size: 22px;
+}
 
 body #sixth-page .image:hover .second{
     display: inline;
