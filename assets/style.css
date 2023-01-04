@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Body css start*/
 body .selector{
     position: fixed;
     background-color: antiquewhite;
@@ -48,6 +49,9 @@ body .selector ul li i{
 body .selector ul li i:hover{
     color: #363636;
 }
+/* Body css end*/
+/* Header css start */
+
 header{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -58,7 +62,6 @@ header .container{
     height: 100vh;
     font-family: 'Seymour One', sans-serif;
 }
-
 header .container .logo1{
    width: 400px;
    height: 400px;
@@ -66,11 +69,9 @@ header .container .logo1{
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    z-index: 1;
     top: -140px;
     left: -140px;   
 }
-
 header .container .logo2{
     width: 800px;
     height: 800px;
@@ -81,7 +82,7 @@ header .container .logo2{
     bottom: -280px;
     right: -220px;  
 }
-eader .container .row{
+header .container .row{
     position: relative;
 }
 header .container .row .abb {
@@ -94,7 +95,6 @@ header .container .row .abb {
     left: 0;
     z-index: 6;  
 }
-
 header .container .row .fixed {
     background-color: #F4F4F4;
     width: 100%;
@@ -103,14 +103,12 @@ header .container .row .fixed {
     justify-content: space-around;
     z-index: 5;  
 }
-
 header .container .row .fixed nav ul li a{
     color: black;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     
 }
-
 header .container .row .image{
     margin-top: 45px;
     margin-left: 35px;
@@ -205,52 +203,45 @@ header .container .row .title .img{
     font-size: 75px;
     color: #F4F4F4;
 }
-
 header .container .row .title .title-lorem .first{
     margin-top: 15px;
     font-family:'Times New Roman', Times, serif;
 }
-
 header .container .row .title .title-lorem .second{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     margin-top: 15px;
 }
-
+/* Header css end */
+/* First selection css start */
 body #first-page{
     background-color: #F0EDF4;
     height: 130vh;
     position: relative;  
 }
-
 body #first-page .watches-and-title .circle{
     position: absolute;
     bottom: 40px;
     left: 40px;
 }
-
 body #first-page .watches-and-title .circle i{
     margin: 10px;
     font-size: 12px;
     color: blueviolet;
 }
-
 body #first-page .watches-and-title .circle i:hover {
     color: #6c12eb;
 }
-
 body #first-page .watches-and-title .watches .first .second{
     display: none;
        position: absolute;
        margin-right: 5px;
        top: 0;
        left: 0;
-       z-index: 1;
-       transition: 3s;      
+       z-index: 1;    
 }
  body #first-page .watches-and-title .watches .first:hover .second{
    display: flex;
-
 } 
 body #first-page .watches-and-title{
     display:inline-block;
@@ -269,7 +260,6 @@ body #first-page .watches-and-title .title-text span {
 body #first-page .watches-and-title .title-text h5{
      font-family: 'Seymour One', sans-serif;
 }
-
 body #first-page .watches-and-title .title-text span .spanword{
     color: blueviolet;
 }
@@ -291,16 +281,15 @@ body #first-page .watches-and-title .watches .first ul li{
     margin-left: 10px;
     list-style: none;
 }
-
 body #first-page .watches-and-title .watches .first img{
-
     width: 390px;
     height: 400px;
 }
+/* First selection css end */
+/* Second selection css start */
 body #second-page{
     height: 100vh;
 }
-
 body #second-page .main{
   display:flex;
     margin-top: 170px;
@@ -339,6 +328,8 @@ body #second-page .main .title-icon .icon .micro div p
     display: flex;
     text-align: center;   
 }
+/* Second selection css End*/
+/* Third selection css start*/
 body #third-page .second-part .text-image{
     display: flex;
     justify-content: space-evenly;
@@ -361,7 +352,6 @@ body #third-page .second-part .text-image .text p{
     color: grey;
     margin-top: 10px;
 }
-
 body #third-page .second-part .text-image .text .line1 p{
     border-bottom: 4px solid blueviolet;
     border-radius:3px;  
@@ -392,6 +382,8 @@ body #third-page .second-part .text-image .text .line3 p{
 body #third-page .second-part .text-image .text h3{
     margin: 15px;
 }
+/* Third selection css end*/
+/* Fourth selection css start*/
 body #fourth-page{
     background-color: #F0EDF4;
     height: 160vh;
@@ -440,11 +432,11 @@ body #fourth-page .contain .image-icone .icone a{
     color: rgb(172, 151, 151);
     font-size: 70px;
 }
-
-
 body #fourth-page .contain .image-icone .icone a i:hover{
     font-size: 80px;
 }
+/* Fourth selection css end*/
+/* Fifth selection css start*/
 body #fifth-page{
     height: 100vh;
     background:#363636;
@@ -453,29 +445,23 @@ body #fifth-page .title{
     padding: 25px;
     text-align: center;
 }
-
 body #fifth-page .title h4{
     margin: 15px;
     color: gray;
     font-size: 15px;
 }
-
 body #fifth-page .title p{
     font-size: 45px;
     font-family: 'Seymour One', sans-serif;
     color: aliceblue;
 }
-
 body #fifth-page .image{
     display: flex; 
 }
-
 body #fifth-page .image a{
     width: 100%;
     margin-left: 50px;
 }
-
-
 body #fifth-page .button{
     width: 120px;
     border: 1px solid white;
@@ -488,11 +474,12 @@ body #fifth-page .button{
     margin: 0 auto;
     margin-top: 35px;   
 }
-
 body #fifth-page .button:hover{   
     color: gray;
     border: 1px solid gray;
 }
+/* Fifth selection css end*/
+/* Sixth selection css start*/
 body #sixth-page{
     height: 100vh;
     background-color: #F4F4F4;
@@ -501,7 +488,6 @@ body #sixth-page{
     background-repeat: no-repeat;
     background-position: left;
     position: relative;
-  
 }
 body #sixth-page .title{
     text-align: center;
@@ -525,13 +511,11 @@ body #sixth-page .image-title{
     margin-top: 35px;
     text-align: center;
 }
-
 body #sixth-page .image-title .lorem{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: gray;
 }
-
 body #sixth-page .image-title .name .first{
     margin: 20px;
     font-size: 20px;
@@ -541,12 +525,13 @@ body #sixth-page .image-title .name .first-num{
     color: gray;
     font-size: 22px;
 }
-
 body #sixth-page .image:hover .second{
     display: inline;
     transition: 0.9s;
 }
+/* Sixth selection css */
 
+/* Social div css start */
 body .social ul{
     background-color: #7D1EFF;
     height:150px;
@@ -556,7 +541,6 @@ body .social ul{
     margin-bottom: 10px;
     padding: 15px;
 }
-
 body .social ul li{
     font-size: 35px;
     color: #F4F4F4;
@@ -564,33 +548,28 @@ body .social ul li{
     list-style: none;
     margin: 50px;
 }
-
-body .social ul li:hover{
-    
+body .social ul li:hover{  
     color: rgb(168, 166, 166);
 }
-
+/* Social div css end */
+/* Footer css start */
 body footer  {
     height: 50vh;
     background-color:#363636;
     position: relative;
 }
-
 body footer .container{
     height: inherit;
     display: flex;
     justify-content: space-evenly;
 }
-
 body footer .container .first-part{
     margin-top: 45px;  
 }
-
 body footer .container .first-part p{
     color: gray;
     margin-top: 15px;
 }
-
 body footer .container .first-part ul{
     margin-top: 20px;
     display: flex;
@@ -636,14 +615,17 @@ body footer .container span{
 body footer .container .third-part{
     margin-top: 45px;
 }
-body footer  .end{
+body footer .end{
     background-color: #363636;
     color: gray;
     text-align: center;
     font-size: small;
     padding: 25px;    
 }
+/* Footer css end */
 
+
+/* Responsive code start */
 .col-1{
     width: calc(100% / 12);
 }
@@ -797,4 +779,4 @@ body footer  .end{
         width: 100%;
     }
 }
-
+/* Responsive code end */
