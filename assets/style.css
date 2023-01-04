@@ -85,26 +85,29 @@ eader .container .row{
     position: relative;
 }
 header .container .row .abb {
+    background-color:#2B2B2B;
     width: 100%;
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     top: 0;
     left: 0;
     z-index: 6;  
 }
 
 header .container .row .fixed {
+    background-color: #F4F4F4;
     width: 100%;
     position: fixed;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     z-index: 5;  
 }
 
 header .container .row .fixed nav ul li a{
     color: black;
-       text-decoration: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -175,7 +178,8 @@ header .container .row nav ul li a:hover{
     color: #6c12eb;
 }
 header .container .row nav ul li a{
-
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
  color: antiquewhite;
     text-decoration: none;
 }
