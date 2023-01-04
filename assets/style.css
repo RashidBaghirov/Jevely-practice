@@ -81,10 +81,17 @@ header .container .logo2{
     bottom: -280px;
     right: -220px;  
 }
-header .container .row {
+eader .container .row{
     position: relative;
+}
+
+
+header .container .row .fixed {
+    width: 100%;
+    position: fixed;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+    z-index: 5;  
 }
 header .container .row .image{
     margin-top: 45px;
