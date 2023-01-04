@@ -84,7 +84,15 @@ header .container .logo2{
 eader .container .row{
     position: relative;
 }
-
+header .container .row .abb {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 6;  
+}
 
 header .container .row .fixed {
     width: 100%;
@@ -93,6 +101,13 @@ header .container .row .fixed {
     justify-content: space-between;
     z-index: 5;  
 }
+
+header .container .row .fixed nav ul li a{
+    color: black;
+       text-decoration: none;
+    
+}
+
 header .container .row .image{
     margin-top: 45px;
     margin-left: 35px;
